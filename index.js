@@ -55,7 +55,7 @@ const myJsmedia = (widthSize) => {
     });
   } else {
     new Swiper(".mySwiper", {
-      slidesPerView: 2,
+      slidesPerView: 1,
       spaceBetween: 30,
     });
   }
