@@ -109,6 +109,7 @@ Header Section Start
   color: var(--helper);
 }
 
+
 /* ?sticky navbar  */
 .sticky .header {
   position: fixed;
@@ -200,6 +201,10 @@ Resuable Code Section
   margin-bottom: 6rem;
   text-transform: capitalize;
   position: relative;
+}
+
+#common-heading{
+ font-size: 4.8rem;
 }
 
 .common-heading::before {
@@ -747,6 +752,7 @@ Freelancing Section Start
 /* contact Section Start */
 /* ======================================= */ 
 
+
 .section-contact-main {
   max-width: 70rem;
   margin: 0 auto;
@@ -873,8 +879,8 @@ Scroll Section Start
   display: inline-block;
   padding: 1.4rem 1.8rem;
   position: relative;
+  border-radius: 100%;
   color: var(--white);
-  animation: water-wave 3s linear infinite;
   cursor: pointer;
 }
 
@@ -968,6 +974,10 @@ Scroll Section Start
   .resume-data-bottom-subsection,
   .resume-data-button{
     min-width: 30%;
+  }
+
+  #common-heading{
+    font-size: 2rem;
   }
 
   .resume-data-left .grid-two-column{
