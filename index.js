@@ -6,10 +6,32 @@ const heroSection = document.querySelector(".section-hero");
 
 const mobile_nav = document.querySelector(".mobile-navbar-btns");
 const headerElem = document.querySelector(".header");
+const navbarCom = document.querySelector(".navbarlink")
+const navbarCom2 = document.querySelector(".navbarlink2")
+const navbarCom3 = document.querySelector(".navbarlink3")
+const navbarCom4 = document.querySelector(".navbarlink4")
+const navbarCom5 = document.querySelector(".navbarlink5")
 
 mobile_nav.addEventListener("click", () => {
   headerElem.classList.toggle("active");
 });
+navbarCom.addEventListener("click", () => {
+  headerElem.classList.remove("active");
+});
+navbarCom2.addEventListener("click", () => {
+  headerElem.classList.remove("active");
+});
+navbarCom3.addEventListener("click", () => {
+  headerElem.classList.remove("active");
+});
+navbarCom4.addEventListener("click", () => {
+  headerElem.classList.remove("active");
+});
+navbarCom5.addEventListener("click", () => {
+  headerElem.classList.remove("active");
+});
+
+
 
 const hider = document.querySelector(".hide")
 const hider2 = document.querySelector(".hide2")
@@ -50,7 +72,7 @@ hidethisbtn.addEventListener("click", () => {
 const observer = new IntersectionObserver(
   (entries) => {
     const ent = entries[0];
-    console.log(ent);
+    // console.log(ent);
     !ent.isIntersecting
       ? document.body.classList.add("sticky")
       : document.body.classList.remove("sticky");
@@ -176,5 +198,3 @@ const workObserver = new IntersectionObserver(
 );
 
 workObserver.observe(workSection);
-
-console.clear();

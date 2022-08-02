@@ -20,12 +20,11 @@
     <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="fav/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
+    <!-- <link rel="manifest" href="/manifest.json"> -->
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">    
     <script defer src="index.js"></script>
 </head>
 
@@ -35,18 +34,18 @@
 
         <nav class="navbar">
             <ul class="navbar-lists">
-                <li><a href="#hero" class="navbar-link home-link">Home</a></li>
+                <li><a href="#hero" class="navbar-link navbarlink home-link">Home</a></li>
                 <li>
-                    <a href="#about" class="navbar-link about-link">About</a>
+                    <a href="#about" class="navbar-link navbarlink2 about-link">About</a>
                 </li>
                 <li>
-                    <a class="navbar-link service-link" href="#services">Services</a>
+                    <a class="navbar-link navbarlink3 service-link" href="#services">Services</a>
                 </li>
                 <li>
-                    <a class="navbar-link portfolio-link" href="#portfolio-section">Portfolio</a>
+                    <a class="navbar-link navbarlink4 portfolio-link" href="#portfolio-section">Portfolio</a>
                 </li>
                 <li>
-                    <a class="navbar-link contact-link" href="#contact">Contact</a>
+                    <a class="navbar-link navbarlink5 contact-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -66,7 +65,7 @@
                     <h1 class="hero-heading">Beast Piano</h1>
                     <p class="hero-para">
                         I'm Harshil Sharma. A Web Developer, Video Editor & youtuber. A Student of class 9 studying in
-                        Mount Litera Zea School.
+                        Kendriya Vidyalaya Number 2 Air Foce School.
                     </p>
                     <div>
                         <a href="#contact" class="btn hireme-btn">Hire me</a>
@@ -93,9 +92,9 @@
                 <h2 class="common-heading">my bio-data</h2>
                 <p>
                     Hello everyone, my name is Harshil Sharma . I live in Jodhpur, Rajasthan. I am a student of class 9
-                    studying in Mount Litera Zea School. I am a Web Devloper and also a youtuber. I have learned many
-                    Coding Languages like Java, React Js, Javascript, HTML & CSS. I also play Piano on my youtube
-                    channel i.e. Beast Piano.
+                    studying in Kendriya Vidyalaya Number 2 Air Foce School. I am a Web Devloper and also a youtuber. I have learned many
+                    Coding Languages like Java, React Js, HTML & CSS. I also play Piano on my youtube
+                    channel Beast Piano.
                 </p>
                 <br />
                 <p>
@@ -144,13 +143,7 @@
     <section class="section section-portfolio" id="portfolio-section">
         <div class="container">
             <h2 class="common-heading">Latest Works</h2>
-            <p>
-                I have mande many projects by using my skills. Thesse are my top Projects
-            </p>
         </div>
-
-
-
         <div class="container grid grid-three-column portfolio-images">
             <div class="img-overlay p-btn--1">
                 <img src="images/folio/bekh.jpg" alt="my works" />
@@ -229,7 +222,7 @@
                     <img src="images/folio/mq3.jpg" alt="portfolio images " />
                     <div class="overlay">
                         <a target="_blank" class="common-heading" id="common-heading"
-                            href="https://youtu.be/RrrjVglXM8k">He's a Pirate</a>
+                            href="https://youtu.be/RrrjVglXM8k">Stranger Things</a>
                     </div>
                     </div>
             <button class="btn shobtn">Show more</button>
@@ -276,8 +269,7 @@
         <!-- services offers card  -->
         <div class="container grid grid-three-column" id="helloboy">
             <div class="service-box">
-                <ion-icon name="desktop-sharp" class="service-icon"><img style="max-width: 35px;"
-                        src="images/New folder (2)/icons/2.webp" alt="img"></ion-icon>
+                <ion-icon name="desktop-sharp" class="service-icon"><img style="max-width: 35px;"></ion-icon>
                 <h3>Web Design</h3>
                 <p>
                     “It is not because things are difficult that we do not dare; it is
@@ -286,53 +278,43 @@
             </div>
 
             <div class="service-box">
-                <ion-icon name="logo-react" class="service-icon"><img style="max-width: 35px;"
-                        src="images/New folder (2)/icons/2.webp" alt="img"></ion-icon>
+                <ion-icon name="logo-react" class="service-icon"><img style="max-width: 35px;"></ion-icon>
                 <h3>web development</h3>
                 <p>
-                    “It is not because things are difficult that we do not dare; it is
-                    because we do not dare that they are difficult.”
+                    “Do not tell people your plans. Show them your results”
                 </p>
             </div>
 
             <div class="service-box">
                 <!-- <ion-icon name="camera-sharp" class="service-icon"></ion-icon> -->
-                <ion-icon name="camera-outline" class="service-icon"><img style="max-width: 35px;"
-                        src="images/New folder (2)/icons/3.webp" alt="img"></ion-icon>
+                <ion-icon name="camera-outline" class="service-icon"><img style="max-width: 35px;"></ion-icon>
                 <h3>Video Editing</h3>
                 <p>
-                    “It is not because things are difficult that we do not dare; it is
-                    because we do not dare that they are difficult.”
+                    “We can do anything we want to if we stick to it long enough”
                 </p>
             </div>
 
             <div class="service-box">
-                <ion-icon name="phone-portrait-sharp" class="service-icon"><img style="max-width: 35px;"
-                        src="images/New folder (2)/icons/4.webp" alt="img"></ion-icon>
+                <ion-icon name="phone-portrait-sharp" class="service-icon"><img style="max-width: 35px;"></ion-icon>
                 <h3> Responsive Mobile Website</h3>
                 <p>
-                    “It is not because things are difficult that we do not dare; it is
-                    because we do not dare that they are difficult.”
+                    “Stay foolish to stay sane.”
                 </p>
             </div>
 
             <div class="service-box">
-                <ion-icon name="globe-sharp" class="service-icon"><img style="max-width: 35px;"
-                        src="images/New Folder (2)/icons/5.webp" alt="img"></ion-icon>
+                <ion-icon name="globe-sharp" class="service-icon"><img style="max-width: 35px;"></ion-icon>
                 <h3>apps interface</h3>
                 <p>
-                    “It is not because things are difficult that we do not dare; it is
-                    because we do not dare that they are difficult.”
+                    “Try Again. Fail again. Fail better.”
                 </p>
             </div>
 
             <div class="service-box">
-                <ion-icon name="images-sharp" class="service-icon"><img style="max-width: 35px;"
-                        src="images/New folder (2)/icons/1.webp" alt="img"></ion-icon>
+                <ion-icon name="images-sharp" class="service-icon"><img style="max-width: 35px;"></ion-icon>
                 <h3>graphic design</h3>
                 <p>
-                    “It is not because things are difficult that we do not dare; it is
-                    because we do not dare that they are difficult.”
+                    “Impossible is for the unwilling.”
                 </p>
             </div>
 
